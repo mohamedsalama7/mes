@@ -11,7 +11,7 @@
   --font-color: #000;
   --button-color: white;
   --transition: .4s;
-  --special: gold;
+  --special: #10d1dd;
   --theme-whight: rgb(196, 181, 181);
 }
 
@@ -216,4 +216,14 @@ section {
       margin: auto;
     }
   }
+}
+
+#perloader {
+  background: #101010 url(img/bold-preloader.gif) no-repeat center center;
+  height: 100vh;
+  background-size: 30%;
+  transition: var(--transition);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
